@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "TTLakes";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TTLakes-regular"), url("./fonts/TTLakes-Regular.woff");
+}
+
+@font-face {
+  font-family: TTLakes;
+  font-style: bold;
+  src: local("TTLakes-Bold"), url("./fonts/TTLakes-Bold.woff");
+
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "TTLakes", sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.head {
+  margin-left: 10px;
+}
+
+.head__info-left {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 5px 40px 5px;
+}
+.head__info-left-burger {
+  background-image: url("/images/burger2.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.head__info-left-group {
+  background-image: url("./images/Group.svg");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 60px;
+  padding: 0px;
+  margin-left: 20px;
+  transform: translate(-50px, -5px);
+}
+
+.head__info-right-chat {
+  background-image: url("./images/chat.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.head__info-right-call {
+  background-image: url("./images/call.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.head__info-right-profile {
+  background-image: url("./images/profile.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+.head__info-right-search {
+  background-image: url("/images/search.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+
+.head__sub-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.head__sub-menu-item {
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.head__sub-menu-item:nth-child(1) {
+  content: "";
+  width: 4px;
+  background-color: aqua;
+  height: 35px;
+  position: relative;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+
+.head__sub-menu-item:hover {
+  background-color: #6b7b84;
+  transform: translateX(10px);
+}
+
+li {
+  list-style: none;
+}
+
+.head__phone {
+  font-weight: bold;
+  font-size: 24px;
+}
