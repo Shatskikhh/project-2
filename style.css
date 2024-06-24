@@ -139,7 +139,7 @@ li {
   font-weight: bold;
   font-size: 24px;
   margin-top: 20px;
-  color: red;
+  background-color: red;
 }
 
 .head__lang {
