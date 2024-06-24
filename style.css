@@ -30,7 +30,7 @@ body {
   margin: 25px 5px 40px 15px;
 }
 .head__info-left-burger {
-  background-image: url("/images/burger2.svg");
+  background-image: url("./images/burger2.svg");
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
@@ -83,7 +83,7 @@ body {
 }
 
 .head__info-right-search {
-  background-image: url("/images/search.svg");
+  background-image: url("./images/search.svg");
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
