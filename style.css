@@ -22,6 +22,8 @@ body {
 
 .head {
   margin-left: 10px;
+  max-width: 320px;
+  padding-bottom: 10px;
 }
 
 .head__info-left {
@@ -143,7 +145,6 @@ li {
 }
 
 .head__lang {
-  display: inline-block;
   margin-top: 40px;
 }
 
@@ -161,4 +162,5 @@ li {
 
 .head__sub-menu-info {
   margin-left: 15px;
+  display: inline-block;
 }
