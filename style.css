@@ -24,14 +24,21 @@ body {
   margin-left: 10px;
   max-width: 320px;
   padding-bottom: 10px;
+<<<<<<< HEAD
   box-shadow: 2px 2px 100px #6b7b84;
+=======
+>>>>>>> 1f306f9b8a44d33b2351c4b25269b6a6777a1990
 }
 
 .head__info-left {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin: 0px 15px 70px 15px;
   align-items: baseline;
+=======
+  margin: 25px 5px 40px 15px;
+>>>>>>> 1f306f9b8a44d33b2351c4b25269b6a6777a1990
 }
 .head__info-left-burger {
   background-image: url("./images/burger2.svg");
@@ -123,15 +130,22 @@ a {
   border-radius: 7px;
   display: inline-block;
   position: absolute;
+<<<<<<< HEAD
   transform: translate(-35px, -5px);
+=======
+  transform: translate(-39px, -5px);
+>>>>>>> 1f306f9b8a44d33b2351c4b25269b6a6777a1990
 }
 
 .head__sub-menu-item:hover {
   background-color: #bdcfda;
   margin-left: 35px;
+<<<<<<< HEAD
   transition-duration: 0.5s;
   box-shadow: 2px 2px 2px #7e7e82;
   border-radius: 2px;
+=======
+>>>>>>> 1f306f9b8a44d33b2351c4b25269b6a6777a1990
 }
 
 li {
